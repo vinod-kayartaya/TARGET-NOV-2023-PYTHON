@@ -38,7 +38,9 @@ def main():
     print(e1)
     e1.print_info()
 
+    # e1.__iadd__(' Ross')
     e1 += ' Ross'  # should add ' Ross' to the name
+    # e1.__iadd__(1500)
     e1 += 1500     # should increment salary by 1500
 
     e1.print_info()
